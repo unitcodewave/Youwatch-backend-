@@ -1,0 +1,17 @@
+{
+  "name": "youwatch-movies-backend",
+  "version": "1.0.0",
+  "description": "YouWatch Movies – Visitor Tracking Backend by ICONIC TECH",
+  "main": "api/track-pageview.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node api/track-pageview.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-useragent": "^1.0.15",
+    "geoip-lite": "^1.4.3",
+    "request-ip": "^3.3.0"
+  }
+}
